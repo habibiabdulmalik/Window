@@ -1,0 +1,1 @@
+window.alert("Are you ready to see an ANIMATED WINDOW LOGO??");

@@ -1,0 +1,97 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: white;
+    animation: rotate;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-delay: 4s;
+}
+
+@keyframes rotate {
+    50% {
+        transform: rotate(370deg);
+    }
+}
+
+.bx-1 {
+    background-color: red;
+    height: 90px;
+    width: 90px;
+    animation-name: bx-1;
+    animation-duration: 3s;
+}
+
+@keyframes bx-1 {
+    to {margin-left: -1px;}
+    from {margin-left: -400px;}
+}
+
+.bx-2 {
+    background-color: lightseagreen;
+    height: 90px;
+    width: 90px;
+    border-bottom-left-radius: 50%;
+    animation-name: bx-2;
+    animation-duration: 3s;
+}
+
+@keyframes bx-2 {
+    to {margin-bottom: 400px;}
+    from {margin-top: 400px;}
+}
+
+.bx-3 {
+    background-color: limegreen;
+    height: 90px;
+    width: 90px;
+    border-top-right-radius: 50%;
+    animation-name: bx-3;
+    animation-duration: 3s;
+}
+
+@keyframes bx-3 {
+    from {margin-top: -400px;}
+    from {margin-bottom: px;}
+}
+
+.bx-4 {
+    background-color: gold;
+    height: 90px;
+    width: 90px;
+    animation: bx-4;
+    
+}
+
+@keyframes bx-4 {
+    from {margin-right: -400px;}
+    to {margin-right: -4px;}
+}
+
+.border {
+    margin: 13vw 39vw;
+    display: flex;
+}
+
+.box-1 {
+    margin: 0 0.5vw;
+}
+
+.bx-3 {
+    margin: 0.5vw 0;
+}
+
+.bx-1 {
+    margin: 0.5vw 0;
+}
+
+
+@media screen and (max-width:425px) {
+    .border {
+        margin: 40% 27%;
+    }
+}
